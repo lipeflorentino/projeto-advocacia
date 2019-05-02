@@ -1,0 +1,30 @@
+$primary:#4d4d4d;
+$secondary:#d3d3d3;
+$third:#f5f5f5;
+$forth:#b2b2b2;
+$fifth:#313131;
+$black:black;
+$white:white;
+
+.section-servicos{
+    width:100%;
+    height:100vh;
+    background-color:$fifth;
+    h2{
+        font-size:3rem;
+        color:$third;
+    }
+}
+.padding{
+    padding:10% 15%;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .section-servicos{
+        text-align:center;
+    }
+}

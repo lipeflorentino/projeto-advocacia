@@ -4,6 +4,7 @@ import React from "react";
 import { Row, Col } from 'react-materialize';
 // Import stylesheet
 import './css/section-header.scss';
+import '../geral.scss';
 // Importando img
 import logo from './img/default-logo.png';
 //Content

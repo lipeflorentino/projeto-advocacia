@@ -1,4 +1,4 @@
-$nav-color:#4d4d4d;
+$primary-color:#4d4d4d;
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,7 @@ $nav-color:#4d4d4d;
 .nav {
   height: 60px;
   width: 100%;
-  background-color: $nav-color;
+  background-color: $primary-color;
   position: fixed;
   padding:0 4%;
 }
