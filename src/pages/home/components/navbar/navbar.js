@@ -11,7 +11,7 @@ import logo from './img/default-logo.png';
 
 const icon = (
   <span className="logo">
-    <img src={logo} height="45" width="45" title="BIG-soluções-digitais" alt="<BIG/>" />
+    <img src={logo} height="45" width="90" title="BIG-soluções-digitais" alt="<BIG/>" />
   </span>
 );
 //navbar
