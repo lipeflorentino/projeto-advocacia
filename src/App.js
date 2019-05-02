@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Importando o React
+import React, { Component } from 'react';
+// Importando o Component Navbar
+import Menu from './pages/home/components/navbar/navbar';        
+// Importando o component Main
+import Main from './main';
+// Importando o component Footer
+import Footer from './pages/home/components/footer/footer';   
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div id="app-container">
+        <header>
+          <Menu />
+        </header>
+        <Main />
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    );
+  }
 }
 
 export default App;
