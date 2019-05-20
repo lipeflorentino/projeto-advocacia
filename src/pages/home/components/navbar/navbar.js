@@ -7,7 +7,7 @@ import './css/navbar.scss';
 // Importando js files
 import "./js/click-to-navigate.js";
 // Importando Logo
-import logo from './img/default-logo.png';
+import logo from './img/logo.png';
 
 const icon = (
   <span className="logo">
