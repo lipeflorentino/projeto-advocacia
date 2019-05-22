@@ -39,7 +39,7 @@ const Footer = () => (
             </Row>
         </div>
         <div className="pf-copyright">
-            Copyright@ 2019 MinhaEmpresa | site desenvolvido por 
+            Copyright@ 2019 Pedrosa & Cunha Advocacia | site desenvolvido por 
             <a href="http://www.bigempreendimentos.com.br" className="pf-logo">
                 BIG Soluções Digitais
             </a>

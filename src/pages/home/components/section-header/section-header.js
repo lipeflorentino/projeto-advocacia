@@ -6,16 +6,17 @@ import { Row, Col } from 'react-materialize';
 import './css/section-header.scss';
 import '../geral.scss';
 // Importando img
-import logo from './img/default-logo.png';
+import logo from './img/logo.png';
 //Content
 const SectionHeader = () => (
     <section>
         <div className="section-header">
+            <div className="sh-background"></div>
             <Row>
                 <Col s={12}>
-                    <div className="sh-logo-title logo-mobile">
-                        <img src={logo} title="logo-da-empresa" alt="Logo" />
-                    </div>
+                    {/*<div className="sh-logo-title logo-mobile">
+                         <img src={logo} title="logo-da-empresa" alt="Logo" />
+                    </div>*/}
                 </Col>
                 <Col s={12} m={6}>
                     <div className="sh-title">
@@ -25,9 +26,9 @@ const SectionHeader = () => (
                     </div>
                 </Col>
                 <Col m={6}>
-                    <div className="sh-logo-title logo-desktop">
+                    {/*<div className="sh-logo-title logo-desktop">
                         <img src={logo} title="logo-da-empresa" alt="Logo" />
-                    </div>
+                    </div>*/}
                 </Col>
             </Row>
         </div>

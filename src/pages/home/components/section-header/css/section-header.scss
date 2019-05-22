@@ -1,6 +1,7 @@
-$primary:#4d4d4d;
+$primary:#802819;
 $secondary:#eeeeee;
 $third:#f5f5f5;
+$fourth:#aa4c3c;
 $black:black;
 $white:white;
 
@@ -8,16 +9,20 @@ $white:white;
     width:100%;
     height:100vh;
     background-color: $white;
-    
+    background-image:url('../img/advocacia.jpg');
+    background-size:cover;
 }
 .sh-title{
     height:100%;
     padding:30% 0 10% 15%;
     h1{
         font-size:3.4rem;
+        color:$secondary;
     }
     p{
         font-size:1.4rem;
+        color:$secondary;
+        opacity:0.9;
     }
 }
 .sh-logo-title{
@@ -46,8 +51,8 @@ $white:white;
     width:50%;
 }
 .btn-class:hover{
-    background-color: $third;
-    color: $primary;
+    background-color: $fourth;
+    color: $secondary;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {

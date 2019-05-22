@@ -1,4 +1,4 @@
-$primary-color:#4d4d4d;
+$primary-color:#802819;
 
 * {
   box-sizing: border-box;
@@ -11,6 +11,7 @@ $primary-color:#4d4d4d;
   background-color: $primary-color;
   position: fixed;
   padding:0 4%;
+  z-index:2;
 }
 
 .nav > .nav-header {
@@ -21,7 +22,7 @@ $primary-color:#4d4d4d;
   display: inline-block;
   font-size: 22px;
   color: #fff;
-  padding: 10px 10px 10px 10px;
+  padding: 7px 10px 10px 10px;
 }
 
 .nav > .nav-btn {

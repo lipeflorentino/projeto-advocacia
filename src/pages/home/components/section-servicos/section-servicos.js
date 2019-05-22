@@ -10,10 +10,51 @@ import '../geral.scss';
 const SectionServicos = () => (
     <section>
         <div className="section-servicos padding">
-            <h2>Nossos Serviços</h2>
+            <h2>Áreas de Atuação</h2>
             <Row>
-                <Col>
-                    
+                <Col m={6} s={12}>
+                    <div className="ss-content">
+                        <ul className="collapsible">
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>First</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Second</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Third</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Forth</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </Col>
+                <Col m={6} s={12}>
+                    <div className="ss-content">
+                        <ul className="collapsible">
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>First</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Second</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Third</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                            <li>
+                                <div className="collapsible-header"><i className="material-icons">add</i>Forth</div>
+                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                            </li>
+                        </ul>
+                    </div>
                 </Col>
             </Row>
         </div>
