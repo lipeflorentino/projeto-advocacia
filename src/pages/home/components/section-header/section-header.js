@@ -5,6 +5,8 @@ import { Row, Col } from 'react-materialize';
 // Import stylesheet
 import './css/section-header.scss';
 import '../geral.scss';
+// Import do js
+import './js/click-to-contato.js';
 // Importando img
 import logo from './img/logo.png';
 //Content
@@ -20,9 +22,9 @@ const SectionHeader = () => (
                 </Col>
                 <Col s={12} m={6}>
                     <div className="sh-title">
-                        <h1>Título do header em h1</h1>
+                        <h1>Pedrosa & Cunha Advocacia</h1>
                         <p>Texto do header em paragraph, não é um texto longo é curto e objetivo que procura passar a ideia da empresa.</p>
-                        <a href="/" className="btn-class">CLIQUE AQUI</a>
+                        <a href="#toContato" className="btn-class">Saiba Mais</a>
                     </div>
                 </Col>
                 <Col m={6}>

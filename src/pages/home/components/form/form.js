@@ -30,7 +30,7 @@ class MyForm extends React.Component {
     enviarEmail (event, data){
         event.preventDefault();
         console.log('chamou enviarEmail pelo react...');
-        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'), 'servico': data.get('servico'), 'tipo_servico': data.get('tipo_servico'), 'mensagem': data.get('mensagem'), 'data_envio': new Date(), 'token': token}
+        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'), 'mensagem': data.get('mensagem'), 'data_envio': new Date(), 'token': token}
         fetch(api, { 
             method: 'post', 
             headers: {
@@ -96,26 +96,6 @@ class MyForm extends React.Component {
                             <i className="material-icons prefix">create</i>
                             <input id="assunto" type="text" data-length="40" className="validate" name="assunto" required ></input>
                             <label htmlFor="assunto">Assunto</label>
-                        </div>
-                        <div className="input-field col s6">
-                            <label id="pd-left"  htmlFor="servico">Serviço</label>
-                            <div id="pd-left" className="custom-select">
-                                <select name="servico">
-                                    <option value="Sites">Sites</option>
-                                    <option value="Sistemas">Sistemas</option>
-                                    <option value="Negocios">Negócios</option>
-                                </select>
-                            </div>    
-                        </div>
-                        <div className="input-field col s6">
-                            <label id="pd-left"  htmlFor="tipo_servico">Tipo</label>
-                            <div id="pd-left" className="custom-select">
-                                <select name="tipo_servico">
-                                    <option value="Basico">Basico</option>
-                                    <option value="Avancado">Avançado</option>
-                                    <option value="Customizado">Customizado</option>
-                                </select>
-                            </div>    
                         </div>
                         
                         <div className="input-field col s12">

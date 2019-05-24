@@ -33,11 +33,10 @@ const Nav = () => (
       </div>
       
       <div className="nav-links">
-        <a href="/">Serviços</a>
-        <a href="/">Empresa</a>
-        <a href="/">Benefícios</a>
-        <a href="/">Clientes</a>
-        <a href="/">Contato</a>
+        <li id="toAtuacao"><a href="#toAtuacao">Áreas de Atuação</a></li>
+        <li id="toEscritorio"><a href="#toEscritorio">Escritório</a></li>
+        <li id="toAdvogado"><a href="#toAdvogado">Advogados</a></li>
+        <li id="toContato"><a href="#toContato">Contato</a></li>
       </div>
     </div> 
 );

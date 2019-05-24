@@ -36,14 +36,16 @@ $primary-color:#802819;
   padding-top:3px;
 }
 
-.nav > .nav-links > a {
+.nav > .nav-links > li {
   display: inline-block;
   padding: 13px 10px 13px 10px;
-  text-decoration: none;
-  color: #efefef;
+  a{
+    text-decoration: none;
+    color: #efefef;
+  }
 }
 
-.nav > .nav-links > a:hover {
+.nav > .nav-links > li:hover{
   background-color: rgba(0, 0, 0, 0.3);
 }
 

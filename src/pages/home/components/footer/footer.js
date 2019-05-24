@@ -4,6 +4,8 @@ import React from "react";
 import { Row, Col } from 'react-materialize';
 import './css/footer.scss';
 import '../geral.scss';
+// Importando js files
+import "./js/click-to-nav.js";
 
 //Content
 const Footer = () => (
@@ -23,17 +25,16 @@ const Footer = () => (
                     </div>
                     <div className="pf-menu">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">Serviços</a></li>
-                            <li><a href="/">Empresa</a></li>
-                            <li><a href="/">Benefícios</a></li>
-                            <li><a href="/">Clientes</a></li>
+                            <li id="upToHome"><a href="#upToHome">Home</a></li>
+                            <li id="upToAtuacao"><a href="#upToAtuacao">Atuação</a></li>
+                            <li id="upToEscritorio"><a href="#upToEscritorio">Escritório</a></li>
+                            <li id="upToAdvogado"><a href="#upToAdvogado">Advogados</a></li>
+                            <li id="upToContato"><a href="#upToContato">Contato</a></li>
                         </ul>
                     </div>
                 </Col>
                 <Col s={12} m={4}>
                     <div className="pf-infos info-links">
-                        
                     </div>
                 </Col>
             </Row>

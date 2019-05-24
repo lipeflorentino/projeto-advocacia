@@ -6,35 +6,35 @@ $(document).ready(function() {
         window.scrollTo(0, 0);
     });
     
-    $('#toHome').click(function() {
+    $('#upToHome').click(function() {
         $('html, body').animate({
             scrollTop: '0px'
         }, 1500);
         return false;
     });
 
-    $('#toAtuacao').click(function() {
+    $('#upToAtuacao').click(function() {
         $('html, body').animate({
             scrollTop: '600px'
         }, 1500);
         return false;
     });
         
-    $('#toEscritorio').click(function() {
+    $('#upToEscritorio').click(function() {
         $('html, body').animate({
             scrollTop: '1200px'
         }, 1500);
         return false;
     });
     
-    $('#toAdvogado').click(function() {
+    $('#upToAdvogado').click(function() {
         $('html, body').animate({
             scrollTop: '1840px'
         }, 1500);
         return false;
     });
     
-    $('#toContato').click(function() {
+    $('#upToContato').click(function() {
         $('html, body').animate({
             scrollTop: '2650px'
         }, 1500);
